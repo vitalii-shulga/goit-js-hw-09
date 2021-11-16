@@ -1,0 +1,52 @@
+body {
+  background-color: rgba(153, 163, 197, 1);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.08rem;
+}
+
+form {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 60px;
+}
+
+input,
+button,
+a {
+  border-radius: 4px;
+  padding: 0.2em 0.8em;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+input {
+  display: block;
+  height: 40px;
+  width: 180px;
+  border: none;
+  margin-right: 10px;
+}
+
+button {
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0.5rem;
+  background-color: black;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+button:hover,
+a:hover {
+  color: white;
+  background-color: gray;
+}
